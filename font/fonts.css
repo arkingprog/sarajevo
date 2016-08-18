@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'DIN-Alternate-Bold';
+    font-style: normal;
+    font-weight: bold;
+    src:url('DIN Alternate Bold.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Arciform';
+    font-style: normal;
+    font-weight: bold;
+    src:url('Arciform.otf') format('opentype')
+}

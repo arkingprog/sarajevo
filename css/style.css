@@ -1,0 +1,78 @@
+@import '../font/fonts.css';
+body {
+  font-family: 'Lato', serif;
+}
+.shape {
+  width: 28px;
+  height: 1px;
+  background-color: #4c76ff;
+}
+.header {
+  color: #FFFFFF;
+  background: url("../image/bg.jpg") no-repeat center center;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+.header .accent-color {
+  color: #4965c9;
+}
+.header--nav {
+  height: 55px;
+  background-color: rgba(16, 22, 54, 0.2);
+}
+.header--nav ul > li {
+  display: inline;
+  margin-right: 30px;
+  height: 55px;
+  letter-spacing: 0.6px;
+}
+.header--nav_nav {
+  display: flex;
+  align-content: flex-start;
+}
+.header--nav_nav li:first-child {
+  margin-right: auto;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.header--nav_nav li:first-child a:hover {
+  border-top: 3px solid transparent;
+}
+.header--nav_nav a {
+  border-top: 3px solid transparent;
+  color: #FFFFFF;
+  display: block;
+  text-decoration: none;
+  height: 55px;
+  line-height: 55px;
+  margin-top: -15px;
+}
+.header--nav_nav a:hover {
+  border-top: 3px solid #4c76ff;
+}
+.header > .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 90%;
+}
+.header--content_header {
+  font-size: 62px;
+  font-weight: 900;
+}
+.header--content_text {
+  font-size: 48px;
+  opacity: 0.9;
+  font-weight: 100;
+}
+.header--content_subtext {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 100;
+  font-size: 18px;
+  opacity: 0.9;
+  padding: 20px 0;
+}
